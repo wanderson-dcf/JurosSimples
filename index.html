@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-BR-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    
+    <title>Calculador de juro Simples</title>
+</head>    
+<body>
+   <section class="container" id="container_1">
+     <header class="header">
+        <h1>Juro Simples</h1>
+       <p class="pr_head">Preencha os campos e clique em executar.</p>
+        <!--Criar uma lista desordenada para exemplificar 
+         o calculo de juros Simples usado no projeto.
+         
+         J = C × i × t
+           ° J = juros simples;
+           ° C = capital inicial;
+           ° i = taxa de juros;
+           ° t = tempo da aplicação.
+      -->
+     </header>
+
+     <div class="quest">
+      <p class="pr_quest">Qual o capital?<input class="firstInput" type="number" placeholder="Ex:1200"  name="numero" id="inputCapital"></p>
+     </div>
+
+     <div class="quest ">
+      <p class="pr_quest">Quanto de juros?<input class="secondInput" type="number" placeholder="Ex: 5" id="inputPercent"></p>
+     </div>
+
+     <div class="quest">
+      <p class="pr_quest">Quantos meses?<input class="thirdInput" type="number" placeholder="Ex: 12" id="inputTempo"></p>
+     </div>
+
+     <div  class="resultado" id="result">
+         <table>
+            <thead>
+               <th >
+                  <tr>
+                     <td class="theader">Operações</td>
+                     <td class="theader">Valores</td>
+                  </tr>
+               </th>
+            </thead>
+            <tbody>
+               <tr>
+                  <td class="tableOperacao">Capital:</td>
+                  <td class="tableValores" id="tableCapital">Ex: 1200</td>
+               </tr>
+               <tr>
+                  <td class="tableOperacao">Tempo:</td>
+                  <td class="tableValores" id="tableTempo">Ex: 12</td>
+               </tr>
+               <tr>
+                  <td class="tableOperacao">Taxa(%):</td>
+                  <td class="tableValores" id="tableTaxa">Ex: 5</td>
+               </tr>
+               <tr>
+                  <td class="tableOperacao">Retorno:</td>
+                  <td class="tableValores" id="tableRetorno">Ex: 415</td>
+               </tr>
+               <tr>
+                  <td class="tableOperacao">Acúmulo:</td>
+                  <td class="tableValores" id="tableAcumulo">Ex: 1615</td>
+               </tr>
+            </tbody>
+         </table>
+     </div>
+
+     <div class="divBotoes">
+        <button class="btn btn-left" onclick="executar()">Executar</button>
+        <button class="btn btn-right" onclick="resetar()">Resetar</button>
+     </div>
+     
+     <footer>
+        <article>
+           <address>
+              <strong>Nome:</strong> Wanderson Ferreira
+              <br>
+              <strong>Email:</strong><a href="Mailto:Wanderson1.do.carmo.ferreira@gmail.com" target="about_blank"><abbr title="Opinião ou dica."> Feedback</abbr></a>
+              <br>
+              <strong>Telefone:</strong> (45) 999175562
+              <br>
+              <strong>Data inicio:</strong> 05/02/2022
+           </address>
+        </article>
+     </footer>
+   </section> 
+
+    <script src="juroSimples.js"></script>
+</body>
+</html>

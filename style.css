@@ -1,0 +1,107 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: lightblue;
+}
+.container {
+   display: flex;
+   flex-direction: column;
+   margin: auto;
+   width: 25%;
+   height: 40%;
+   margin-top: 2%;
+   border-radius: 10px;
+   padding: 1px 0px 4px 2px;
+   box-shadow: 0px 0px 10px 5px black;
+   background-color: white;
+}
+.header {
+    text-align: center;
+    color: blueviolet;
+}
+.quest {
+    margin-left: 10px;
+    color: blue;
+}
+input {
+    width: 60px;
+}
+.firstInput {
+    margin-left: 22px;
+    width: 70px;
+}
+.secondInput {
+    margin-left: 5px;
+    margin-top: 2px;
+}
+.thirdInput {
+    margin-left: 13px;
+    margin-top: 2px;
+}
+.pr_quest {
+    padding: 0px;
+    margin: 0px;
+    
+}
+.resultado {
+    width: 80%;
+    height: 60%;
+    margin-top: 10px;
+    margin-left: 2%;
+    border: solid 1px black;
+    background-color: white;
+}
+.P-Result {
+    color: red;
+}
+.divBotoes {
+    margin-top: 2%;
+    margin-left: 1%;
+}
+.btn {
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    border-style: none;
+    color: whitesmoke;
+    border-radius: 5px;
+    
+}
+.btn-left:hover {
+    background-color: rgb(236, 57, 33);
+}
+.btn-right:hover {
+    background-color: rgb(90, 231, 90);
+}
+.btn-left {
+    margin-left: 5px;
+    background-color: rgb(236, 11, 11);
+}
+.btn-right {
+    margin-left: 15px;
+    background-color: rgb(11, 196, 11);
+}
+strong{
+    color: blue;
+}
+footer {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.tableOperacao {
+    width: 100px;
+    color: red;
+    background-color: lightblue;
+}
+.tableValores {
+    color: black;
+    width: 100%;
+    background-color: lightgreen;
+}
+.theader{
+    color: blueviolet;
+    background-color: lightgreen;
+}
